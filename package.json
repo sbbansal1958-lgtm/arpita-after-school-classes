@@ -1,0 +1,24 @@
+{
+  "name": "arpitas-after-school-classes",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Arpita's After School Classes — website (React + Vite). Drawing, Dance, Music, Karate, Handwriting, Tuition & Special Camps.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "standalone": "vite build && node scripts/inline.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
